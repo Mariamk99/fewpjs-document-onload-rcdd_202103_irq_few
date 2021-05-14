@@ -1,7 +1,8 @@
 // Your code goes here
+let text = document.getElementById("text") ;
 document.addEventListener("DOMContentLoaded", function() {
     console.log("The DOM has loaded");
-       let text = document.getElementById('text') . innerHtml = "This is really cool!";
+       text.innerHtml = "This is really cool!";
  
 });
 
