@@ -2,5 +2,6 @@
 document.addEventListener("DOMContentLoaded", function() {
   console.log("The DOM has loaded");
 });
- 
-console.log();
+   var text = document.getElementById('text')
+  
+ text.innerHtml = This is really cool!;
